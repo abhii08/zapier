@@ -1,0 +1,20 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -b && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "@types/express": "^5.0.5",
+    "express": "^5.1.0",
+    "prisma": "^6.18.0",
+    "typescript": "^5.9.3"
+  }
+}
