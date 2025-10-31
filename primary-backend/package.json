@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "prisma": {
+    "seed": "src/prisma/seed.ts"
+  },
   "type": "module",
   "dependencies": {
     "@prisma/client": "^6.18.0",
@@ -17,6 +20,7 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "prisma": "^6.18.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "zod": "^4.1.12"
   },

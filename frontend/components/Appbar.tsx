@@ -9,7 +9,7 @@ export const Appbar = () => {
         <div className="flex flex-col justify-center text-2xl font-extrabold cursor-pointer" onClick={() => {
             router.push("/");
         }}>
-            Zapier
+            _zapier
         </div>
         <div className="flex">
             <div className="pr-4">

@@ -20,9 +20,12 @@ export function parse(text: string, values: any, startDelimeter = "{", endDelime
                 if (typeof localValues === "string") {
                     localValues = JSON.parse(localValues);
                 }
-                localValues = localValues[keys[i]];
+                const key = keys[i];
+                if (key !== undefined) {
+                    localValues = localValues?.[key];
+                }
             }
-            finalString += localValues;
+            finalString += localValues ?? "";
             startIndex = endPoint + 1;
             endIndex = endPoint + 2;
         } else {

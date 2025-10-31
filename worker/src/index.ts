@@ -1,5 +1,4 @@
-require('dotenv').config()
-
+import 'dotenv/config';
 import { PrismaClient } from "@prisma/client";
 import type { JsonObject } from "@prisma/client/runtime/library";
 import { Kafka } from "kafkajs";
