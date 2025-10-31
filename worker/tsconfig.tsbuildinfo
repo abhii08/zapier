@@ -1,0 +1,1 @@
+{"root":["./src/email.ts","./src/index.ts","./src/parser.ts","./src/solana.ts","./src/prisma/prisma.config.ts"],"errors":true,"version":"5.9.3"}
